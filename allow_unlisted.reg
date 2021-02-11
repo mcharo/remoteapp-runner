@@ -1,0 +1,2 @@
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
+"fAllowUnlistedRemotePrograms"=dword:00000001
