@@ -17,4 +17,4 @@ fi
 args="${args// /%20}"
 query="full%20address=s:$remote&remoteapplicationmode=i:1&shell%20working%20directory=s:C:/Users/$user&remoteapplicationname=s:Remote%20App&remoteapplicationprogram=s:$app&remoteapplicationcmdline=s:$args&domain=s:$domain&username=s:$user"
 
-open "rdp://$query"
+open -a "Microsoft Remote Desktop" "rdp://$query"
